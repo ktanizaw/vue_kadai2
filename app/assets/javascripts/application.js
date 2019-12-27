@@ -14,3 +14,11 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+const vm = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hellor Vue.js!',
+    isChecked: true　<!-- 追加 -->
+  },
+})
